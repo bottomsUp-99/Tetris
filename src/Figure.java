@@ -333,6 +333,7 @@ public class Figure extends Object {
         }
     }
 
+
     private int getRelativeY(int square, int orientation) {
         switch (orientation % 4) {
             case 0:

@@ -155,11 +155,7 @@ public class SquareBoard extends Object {
 
     private class SquareBoardComponent extends JComponent {
 
-        /**
-         * The component size. If the component has been resized, that
-         * will be detected when the paint method executes. If this
-         * value is set to null, the component dimensions are unknown.
-         */
+
         private Dimension size = null;
 
         private Insets insets = new Insets(0, 0, 0, 0);

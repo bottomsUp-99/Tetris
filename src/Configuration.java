@@ -3,6 +3,7 @@ import java.util.Hashtable;
 
 public class Configuration extends Object {
 
+
     private static Hashtable config = new Hashtable();
 
     public static String getValue(String key) {

@@ -5,6 +5,7 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
 public class Game extends Object {
+
     public static final int STATE_GETREADY = 1;
     public static final int STATE_PLAYING = 2;
     public static final int STATE_PAUSED = 3;
